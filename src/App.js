@@ -1,13 +1,17 @@
-import './App.css';
-import HomePage from './pages/HomePage';
+import { DndProvider } from "react-dnd";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import "./App.css";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomePage />
-      </header>
-    </div>
+    <DndProvider backend={HTML5Backend}>
+      <div className="App">
+        <header className="App-header">
+          <HomePage />
+        </header>
+      </div>
+    </DndProvider>
   );
 }
 

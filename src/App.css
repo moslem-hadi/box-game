@@ -8,6 +8,7 @@ body {
 .box {
   position: relative;
   width: 250px;
+  padding-top:15px;
 }
 
 .box img {
@@ -20,8 +21,9 @@ body {
   font-size: 20px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 60px;
   transform: translate(-50%, -50%);
+  transform: rotate3d(2, 2, 1, 26deg);
   text-shadow: 1px 1px #000;
   letter-spacing: 1px;
 }
@@ -49,12 +51,14 @@ body {
 
 .person {
   position: fixed;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
 }
 .person img {
   width: 100px;
   height: 100px;
-  object-fit: cover;
+  object-fit: cover;  
+  border-radius: 10px;
+  margin: 0;
+  box-shadow: 4px 4px 0px #d2d2d2;
 }
