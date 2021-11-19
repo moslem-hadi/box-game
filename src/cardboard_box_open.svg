@@ -11,8 +11,8 @@
     xmlns:svg="http://www.w3.org/2000/svg"
     xmlns:ns1="http://sozi.baierouge.fr"
     id="svg2"
-    sodipodi:docname="box-closed-0.1.svg"
-    viewBox="0 0 51.089 40.938"
+    sodipodi:docname="box-open-0.1.svg"
+    viewBox="0 0 51.089 40.821"
     sodipodi:version="0.32"
     version="1.0"
     inkscape:output_extension="org.inkscape.output.svg.inkscape"
@@ -39,7 +39,7 @@
     </linearGradient
     >
     <radialGradient
-        id="radialGradient3861"
+        id="radialGradient3796"
         gradientUnits="userSpaceOnUse"
         cy="522.12"
         cx="-59.603"
@@ -60,22 +60,22 @@
     </radialGradient
     >
     <linearGradient
-        id="linearGradient3863"
+        id="linearGradient3803"
         y2="190.88"
         xlink:href="#linearGradient4294"
         gradientUnits="userSpaceOnUse"
         x2="-83.837"
-        gradientTransform="matrix(.34104 0 0 .34104 -11.945 32.258)"
+        gradientTransform="matrix(.34104 0 0 .34104 -64.883 27.268)"
         y1="-10.987"
         x1="-81.671"
         inkscape:collect="always"
     />
     <linearGradient
-        id="linearGradient3867"
-        y2="59.333"
+        id="linearGradient3821"
+        y2="57.477"
         gradientUnits="userSpaceOnUse"
-        x2="-82.773"
-        gradientTransform="matrix(-1 0 0 -1 -113.13 122.66)"
+        x2="-80.913"
+        gradientTransform="matrix(-1 0 0 -1 -165.99 117.92)"
         y1="63.817"
         x1="-79.732"
         inkscape:collect="always"
@@ -101,7 +101,7 @@
       height="48px"
       borderopacity="1.0"
       inkscape:current-layer="layer1"
-      inkscape:cx="-25.717246"
+      inkscape:cx="20.570675"
       inkscape:cy="-26.943759"
       showgrid="false"
       width="48px"
@@ -122,66 +122,73 @@
       id="layer1"
       inkscape:label="Layer 1"
       inkscape:groupmode="layer"
-      transform="translate(68.106 -65.31)"
+      transform="translate(110.04 -53.811)"
     >
     <g
-        id="g3851"
-        transform="translate(-11,6.625)"
+        id="g3825"
       >
       <path
-          id="path3763"
+          id="path3823"
+          style="stroke-linejoin:round;fill-rule:evenodd;stroke:#746137;stroke-width:1px;fill:#b1883f"
+          d="m-86.623 54.49l-6.75 5.434-14.277 5.625 7.33-6.854 13.697-4.205z"
+          inkscape:transform-center-x="-6.026071"
+          inkscape:transform-center-y="-8.329675"
+          sodipodi:nodetypes="cccsc"
+      />
+      <path
+          id="path3782"
           sodipodi:rx="61.16605"
           sodipodi:ry="11.926199"
-          style="fill-rule:evenodd;color:#000000;fill:url(#radialGradient3861)"
+          style="fill-rule:evenodd;color:#000000;fill:url(#radialGradient3796)"
           sodipodi:type="arc"
           d="m127.76 105.68a61.166 11.926 0 1 1 -122.33 0 61.166 11.926 0 1 1 122.33 0z"
-          transform="matrix(.41762 0 0 .83114 -59.374 1.8728)"
+          transform="matrix(.41762 0 0 .83114 -112.31 -3.1179)"
           sodipodi:cy="105.68266"
           sodipodi:cx="66.597786"
       />
       <path
-          id="rect2732"
+          id="path3784"
           sodipodi:nodetypes="ccccc"
           style="stroke-linejoin:round;stroke:#746137;stroke-linecap:square;fill:#c7a465"
-          d="m-27.948 68.519l-19.427-4.64-0.125 24.826 19.552 4.638v-24.824z"
+          d="m-80.886 63.528l-19.424-4.64-0.13 24.826 19.554 4.638v-24.824z"
       />
       <path
-          id="path3727"
+          id="path3786"
           sodipodi:nodetypes="ccccc"
           style="stroke-linejoin:round;stroke:#746137;stroke-linecap:square;fill:#c7a465"
-          d="m-27.558 68.515l14.016-4.212 0.089 24.395-14.068 4.552-0.037-24.735z"
+          d="m-80.496 63.525l14.016-4.213 0.089 24.396-14.068 4.551-0.037-24.734z"
       />
       <path
-          id="path3729"
+          id="path3788"
           sodipodi:nodetypes="ccccc"
-          style="stroke-linejoin:round;stroke:#746137;stroke-linecap:square;fill:#c7a465"
-          d="m-33.023 59.302l19.687 4.712-14.493 4.236-19.671-4.556 14.477-4.392z"
+          style="stroke-linejoin:round;stroke:#746137;stroke-linecap:square;fill:#82642f"
+          d="m-85.961 54.311l19.687 4.712-14.493 4.236-19.673-4.555 14.479-4.393z"
       />
       <path
-          id="path3733"
-          style="stroke-linejoin:round;fill-rule:evenodd;stroke:#746137;stroke-width:1px;fill:#c7a465"
-          d="m-38.486 65.969l-8.773-2.365 14.168-4.419 9.568 2.485-14.963 4.299z"
+          id="path3792"
+          sodipodi:nodetypes="ccccc"
+          style="opacity:.81172;fill:url(#linearGradient3803);fill-rule:evenodd"
+          d="m-81.418 63.863v12.887c-3.277 3.314-18.561-21.473-18.368 1.66l0.007-18.935 18.361 4.388z"
+      />
+      <path
+          id="path3794"
+          sodipodi:nodetypes="cccc"
+          style="opacity:.81172;fill-rule:evenodd;fill:url(#linearGradient3803)"
+          d="m-79.987 63.852v12.886c4.604-18.914 13.277-12.178 12.923-16.774l-12.923 3.888z"
+      />
+      <path
+          id="path3790"
+          style="stroke-linejoin:round;fill-rule:evenodd;stroke:#746137;stroke-width:1px;fill:#b1883f"
+          d="m-74.316 72.896s-6.258-9.156-6.258-9.156l14.698-4.419s5.053 8.776 5.053 8.776-13.493 4.799-13.493 4.799z"
           inkscape:transform-center-x="-10.429825"
           inkscape:transform-center-y="-8.3223685"
           sodipodi:nodetypes="cccsc"
       />
       <path
-          id="path3753"
-          sodipodi:nodetypes="ccccc"
-          style="opacity:.81172;fill-rule:evenodd;fill:url(#linearGradient3863)"
-          d="m-28.48 68.854v12.886c-3.277 3.315-18.561-21.473-18.369 1.66l0.008-18.935 18.361 4.389z"
-      />
-      <path
-          id="path3757"
+          id="path3813"
           sodipodi:nodetypes="cccc"
-          style="opacity:.81172;fill:url(#linearGradient3863);fill-rule:evenodd"
-          d="m-27.049 68.843v12.886c4.603-18.914 13.277-12.179 12.923-16.775l-12.923 3.889z"
-      />
-      <path
-          id="path3836"
-          sodipodi:nodetypes="cccc"
-          style="fill-rule:evenodd;fill:url(#linearGradient3867)"
-          d="m-15.192 64.41s-17.677-4.684-17.677-4.684l-12.646 3.837c10.714 2.29 17.116-0.836 30.323 0.847z"
+          style="fill-rule:evenodd;fill:url(#linearGradient3821)"
+          d="m-67.705 59.314s-18.385-4.243-18.385-4.243l-11.939 3.661c14.25 4.5 17.824-1.543 30.324 0.582z"
       />
     </g
     >
@@ -215,16 +222,16 @@
         </dc:publisher
         >
         <dc:title
-          >closed box</dc:title
+          >open box</dc:title
         >
         <dc:date
-          >2008-03-19T23:36:12</dc:date
+          >2008-03-19T23:34:51</dc:date
         >
         <dc:description
-          >A closed cardboard box.</dc:description
+          >An open cardboard box.</dc:description
         >
         <dc:source
-          >https://openclipart.org/detail/15872/closed-box-by-mcol</dc:source
+          >https://openclipart.org/detail/15871/open-box-by-mcol</dc:source
         >
         <dc:creator
           >
