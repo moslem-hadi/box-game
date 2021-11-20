@@ -109,15 +109,24 @@ const PersonContextProvider = (props) => {
         },
     ]
 
-
     const [person, setPerson] = useState(null);
+    const [point, setPoint] = useState(0);
+    const [gameOver, setGameOver] = useState(false);
+
     const newPerson = () => {
         var newPerson = people[Math.floor(Math.random() * people.length)]
         setPerson(newPerson)
     }
 
-    const dropPerson = (person1, boxRace) => {
-        console.log(person)
+    const dropPerson = (boxRace) => {
+        if (person == null) {
+            setGameOver(true);
+            return;
+        }
+
+        if (person.race == boxRace)
+            setPoint(point + 10);
+
         setPerson(null)
     }
 
@@ -126,7 +135,10 @@ const PersonContextProvider = (props) => {
             person,
             setPerson,
             dropPerson,
-            newPerson
+            newPerson,
+            point,
+            gameOver,
+            setGameOver
         }}
     >
         {props.children}

@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useContext } from "react";
 import { PersonContext } from "../../context/PersonContext";
 import Box from './Box';
-
+/**
+ * Manges the box, their name, etc...
+ */
 const PersonManager = () => {
-
-
     const personContext = useContext(PersonContext)
 
     const boxes = [
@@ -31,14 +31,14 @@ const PersonManager = () => {
     ]
 
     return (
-
-
-        <div className="boxes">
-            {(boxes.map(b => (<Box box={b} key={b.id} />)
-            ))
-            }
-        </div>
-
+        (
+            !personContext.gameOver &&
+            <div className="boxes">
+                {(boxes.map(b => (<Box box={b} key={b.id} />)
+                ))
+                }
+            </div>
+        )
     );
 };
 
